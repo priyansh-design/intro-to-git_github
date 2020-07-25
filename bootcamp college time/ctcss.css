@@ -1,0 +1,589 @@
+
+body{
+	
+	
+	font-family: "Proxima Nova",  "Helvetica" ;
+    background-image: url("images/Path 4.png");
+    background-position:right top;
+    background-repeat: no-repeat;
+    background-size: 120% 40%;
+    background-position-y: -48.924vw;
+    background-position-x: 16.981vw;
+
+
+}
+/*------------HEADER SECTION STARTS----------------*/
+.navbar{
+	
+    width: 100%;
+    z-index: 99;
+    transition: background 0.4s, all 0.3s linear;background-color: white;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 6.3vw;
+	box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container{
+	height: 100%;
+}
+.navbar-brand{
+	padding: 0px;
+}
+/*--------------HEADER SECTION ENDS------------------*/
+
+
+/*---------------HOME BODY STARTS------------------*/
+
+
+.row .text{
+	width: 50%;
+	padding-left: 15vw;
+	text-align: center;
+	position: relative;
+}
+
+
+.text h1{
+	margin-top:1.2em;
+	font-weight:lighter;
+	padding-left: 5%;
+	padding-top: 5%;
+	font-size: 3vw;
+	text-align: left;
+	line-height: 130%;
+}
+
+
+.text span{
+	font-weight: bold;
+	
+}
+
+.row .image {
+	
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: -6%;
+    padding-top: 2%;
+}
+
+.row .image img{
+	width: 80%;
+	height:85%;
+}
+
+
+button.d{
+	position: relative;
+	border: none;
+	margin-top: 1.4em;
+	left: -24%;
+	top: 135%;
+	font-size: 1.8vw;
+	text-align: center;
+	align-items: center;
+	color: white;
+	border-radius: 50px;
+	background-color: #6259f6;
+	padding: 2% 1% 2% 1%;
+	width: 27.5vw;
+	height: 5.2vw;
+	box-shadow: 2px 2px 5px black;
+	z-index: 5;
+    font-weight: bold;
+}
+
+button.r{
+    position: relative;
+	border: none;
+	margin-top: .4em;
+	font-size:1.8vw;
+	left: -24%;
+	top: 178%;
+	text-align: center;
+	align-items: center;
+	color: white;
+	border-radius: 50px;
+	background-color: #6259f6;
+	padding: 2% 1% 2% 1%;
+	width: 27.5vw;
+	height: 5.2vw;
+    box-shadow: 2px 2px 5px black;
+    z-index: 5;
+    font-weight: bold;
+}
+
+/*h1.lastpage{
+	margin: auto;
+	
+	font-size: 5vw;
+	z-index: 5;
+	font-weight: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: blue;
+}
+
+button.d2{
+	position: relative;
+	border: none;
+	margin-top: 1.4em;
+	
+	top: 135%;
+	font-size: 1.8vw;
+	text-align: center;
+	align-items: center;
+	color: white;
+	border-radius: 50px;
+	background-color: #6259f6;
+	padding: 2% 1% 2% 1%;
+	width: 27.5vw;
+	height: 5.2vw;
+	box-shadow: 2px 2px 5px black;
+	z-index: 5;
+    font-weight: bold;
+}*/
+
+
+/* Section-2 start */
+#section-2-container {
+    background-image: url("images/Path6.png"), url("images/Path7.png"), url("images/Path8.png");
+    background-position: center, center, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 72% auto, auto 62%, auto;
+    background-position-x: -40vw, 36vw, -50vw;
+    background-position-y: 0vw, 33vw, 92vw;
+    margin-top: 10vw;
+    z-index: 60,60,60;
+    background-color: #6ab3a7;
+    padding:0;
+}
+
+/* Section-2 heading */
+#section-2-header {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 3vw 0;
+    padding-top: 6%;
+}
+
+#section-2-header-1 {
+    font-size: 5vw;
+    margin-top: 9vh;
+    color: black;
+    font-weight: 700;
+}
+
+#section-2-header-2 {
+    color: white;
+    display: inline-block;
+    background-color: #000;
+    font-size: 5vw;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+/* section-2 body */
+
+.section-2-body {
+    margin: 0 17vw 0 17vw;
+}
+
+.col-md-6 {
+    display: inline-block;
+    text-align: center;
+    padding: 7%;
+    font-size: 2vw;
+    margin-bottom: 3%;
+    vertical-align: middle;
+}
+
+.div-text {
+    background-image: url("images/Rectangle 9.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.col-md-6 img {
+    width: 100%;
+    height: 100%;
+}
+
+/*TUTOR SECTION*/
+#tutor {
+    margin-top: 10%;
+    height: 700px;
+}
+#tutor .header{
+    background-color: #5d8981;
+    opacity: 0.8;
+}
+
+#tutor .heading {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4vw;
+    margin-top: 0; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#tutor .info-container {
+    width: 75%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(82, 115, 108);
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid black;
+    border-radius: 3vw;
+    border-left-color: white;
+
+}
+
+#tutor .profile {
+    width: 142%;
+    height: 101%;
+    border: 1px solid white;
+    border-radius: 3vw;
+    padding: 0px;
+    margin: 0;
+    background-color: white;
+    top: -65vw;
+}
+
+/*#tutor .name{
+    margin-top: 50px;
+    padding: 0px 15px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 35px;
+    color: #ffffff;
+}*/
+#tutor .about {
+    padding: 0px 20px;
+    color: #ffffff;
+
+    font-size: 2.5vw;
+    text-align: center;
+    text-align: left;
+}
+
+#lastpage{
+	margin: auto;
+	height: 100vh; 
+	padding: 10vw;
+	padding-top: 13vw;
+	
+
+}
+
+h1.lastpage{
+	margin: auto;
+	font-size: 6vw;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	font-family: "Proxima Nova",  "Helvetica" ;
+
+}
+
+button.lastpage{
+	border: none;
+	margin-left: auto;
+	position: relative;
+	margin-right: auto;
+	left: 0%;
+	margin-top: 10%;
+	font-family: "Proxima Nova",  "Helvetica" ;
+    
+	padding: 3%;
+	font-size: 2.5vw;
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	border-radius: 1.5em;
+	color: white;
+	background-color: #6259F6;
+	box-shadow: 0px 0px 5px black;
+
+}
+
+button.seconds{
+	border: none;
+	position: relative;
+	left: 0%;
+	margin-left:auto;
+	margin-right: auto;
+    	
+    
+	margin-top: 2%;
+	font-family: "Proxima Nova",  "Helvetica" ;
+	
+	padding: 3%;
+	font-size: 2.5vw;
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	border-radius: 2em;
+	color: white;
+	background-color: #6259F6;
+	box-shadow: 0px 0px 5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------HOME BODY ENDS-----------------*/
+
+
+
+/*===================MOBILE VIEW===================*/
+
+
+@media (max-width: 767px){
+
+body{
+
+	background-image: url("images/Path 1.png");
+    background-position:right top;
+    background-repeat: no-repeat;
+    background-size: 250% 23%;
+    background-position-y: -16vw;
+    background-position-x:-7vw;
+}
+
+/*-------------------MOBILE HEADER SECTION STARTS--------------*/	
+
+.navbar{
+	background-color: white;
+	height: 14vw;
+	box-shadow: 0px 0px 10px black;
+	z-index: 5;
+	width: 100vw;
+}
+
+
+.navbar .container{
+	margin-right: 20vw;
+	padding-left: 1vw;
+}
+/*------------------MOBILE HEADER SECTION ENDS------------------*/
+
+/*----------------------------MOBILE HOME BODY STARTS------------------------*/
+.container{
+	z-index: 5;
+}
+
+
+.row{
+	position: relative;
+}
+
+.row .text{
+	width: 30%;
+	padding-left: 9vw;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+
+
+.text span{
+	font-weight: bold;
+	z-index:5; 
+	font-size: 6.3vw;
+}
+
+
+
+.text h1{
+	margin-top:2.8em;
+	font-weight: 20;
+	margin-left: 0em;
+	font-size: 6.6vw;
+	text-align: left;
+	line-height: 1.2em;
+}
+
+
+.row .image {
+	
+    width: 70%;
+    text-align: center;
+    z-index: 5;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: -1%;
+    margin-top: 2%;
+}
+
+
+.row .image img{
+	width: 69%;
+	height: 69%;
+	margin-top: 10%;
+    z-index: 5;
+}
+
+
+
+/*-------------DOWNLOAD BUTTON-------------*/
+button.d{
+	position: absolute;
+	border: none;
+	margin-top: 1.2em;
+	left:22vw;
+
+	top: 100%;
+	font-size: 4.2vw;
+	text-align: center;
+	align-items: center;
+	color: white;
+	border-radius: 50px;
+	background-color: #6259f6;
+	padding: 2% 1% 2% 1%;
+	width: 49.5vw;
+	height: 12.2vw;
+    z-index: auto;
+    font-weight: bold;
+}
+
+
+
+/*-------------------- REGISTER NOW BUTTON--------------*/
+button.r{
+position: absolute;
+	border: none;
+	margin-top: .1em;
+	font-size:4.2vw;
+	left: 22vw;
+	top: 125%;
+	text-align: center;
+	align-items: center;
+	color: white;
+	border-radius: 50px;
+	background-color: #6259f6;
+	padding: 2% 1% 2% 1%;
+	width: 49.5vw;
+	height: 12.2vw;
+    z-index: auto;
+    font-weight: bold;
+}
+/*----------------------MOBILE HOME BODY ENDS--------------------*/
+/*----------------------MOBILE PAGE 2 STARTS---------------------*/
+
+
+
+
+
+
+    #section-2-container{
+        padding: 0;
+        background-color:white;
+        margin-top: 45vw;
+
+
+
+    }
+    #tutor {
+        
+        height: 1000px;
+    }
+    #tutor .header{
+    background-color: #86ada8;
+    opacity: 0.8;
+    }
+
+    #tutor .heading {
+        text-align: center;
+        color: #ffffff;
+        font-size: 6vw;
+        margin-top: 0;
+        height: 12vw;
+
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    #tutor .info-container {
+        width: 75%;
+        height: 17%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(82, 115, 108);
+        margin: 0 auto;
+        margin-top: 80vw;
+        border: 1px solid white;
+        border-radius: 5vw;
+        position: relative;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+    #tutor .profile {
+        width: 40vw;
+        height: 50vw;
+        border: 1px solid white;
+        border-radius: 5vw;
+        padding: 0px;
+        margin: 0;
+        margin-bottom: 10%;
+        position: absolute;
+        top: -60vw;
+        background-color: white;
+        position: absolute;
+    }
+
+    #tutor .about {
+        padding: 0px 20px;
+        color: #ffffff;
+        float: right;
+        font-size: 3vw;
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+    #lastpage{
+
+    	z-index: 10;
+    	margin-top: -80vw;
+    	height: 100%;
+
+    }
+
+)
