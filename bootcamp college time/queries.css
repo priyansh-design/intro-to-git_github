@@ -1,0 +1,120 @@
+@media (min-width: 769px) {
+    #section-2-mob {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #section-2-container {
+    background-image: url("images/Path14.png"), url("images/Path 12.png"), url("images/Path 13.png"),url("images/mobile-Rectangle 25.png");
+    background-position: center, center, center,center;
+    background-repeat: no-repeat, no-repeat, no-repeat,no-repeat;
+    background-size: 112% auto,  109%, auto 20%,  320%;
+    background-position-x: -42vw, 24vw, -50vw,-90vw;
+    background-position-y: 7vw, 120vw, 235vw,-30vw;
+    
+    z-index: 60, 60,60;
+
+}
+    
+    .col-md-6 img {
+        width: 70%;
+        height: 100%;
+    }
+
+    #section-2-header-1 {
+        font-size: 7vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    #section-2-header-2 {
+        font-size: 7vw;
+        margin: 0;
+        padding: 0;
+        border: 3px solid #9d9d9d;
+    }
+
+    .col-md-6 {
+        margin-bottom: 10%;
+        padding: 0;
+        margin-top: 10%;
+    }
+
+    .div-text {
+        background-image: url("images/mobile-Rectangle 30.png");
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        width: 200vw;
+        height:14vh;
+    }
+
+    .div-text:last-child {
+        margin-bottom: 2%;
+    }
+
+    #section-2-web {
+        display: none;
+    }
+
+    #section-2-mob {
+        visibility: visible;
+    }
+
+    .temp p {
+        position: absolute;
+        top: 50%;
+        transform: translate(-2%, -50%);
+        font-size: 3vw;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .div-text {
+        background-size: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 400px) {
+    #section-2-header-1 {
+        font-size: 7.5vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    #section-2-header-2 {
+        font-size: 7.5vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .div-text {
+        margin: -3.5vh 0;
+        padding: 0 4%;
+    }
+
+    .div-text:last-child {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .temp p {
+        font-size: 3.2vw;
+    }
+
+    .temp:last-child p {
+        font-size: 3vw;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #section-2-web {
+        display: none;
+    }
+}
